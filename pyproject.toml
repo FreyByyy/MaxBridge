@@ -1,0 +1,13 @@
+[project]
+name = "max-telegram-announcements"
+version = "0.1.0"
+description = "Пересылка сообщений из MAX в Telegram с классификацией «объявление / диалог»"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
